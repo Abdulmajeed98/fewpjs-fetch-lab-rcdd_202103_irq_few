@@ -4,7 +4,6 @@ function fetchBooks() {
   .then(response => response.json())
   .then(json => {
     renderBooks(json)
-    
   })
 }
 
